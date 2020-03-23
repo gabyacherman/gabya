@@ -64,13 +64,9 @@ h2
 
 .containerMe {
 
-  padding: 100px;
   margin: auto;
-  margin-bottom: 5px;
-  margin-left: 8px;
   background-color: white;
-  width: 65%;
-  padding-top: 90px;
+  width: 100%;
   box-shadow: 6px 7px 5px 2px #ededed;
   border-radius: 10px;
 
@@ -79,13 +75,11 @@ h2
 
 .containermain {
 
-  padding: 5px;
   margin: auto;
   margin-top: auto;
   background-color: white;
   width: 100%;
   height: 80vh;
-  padding-top: 100px;
   box-shadow: 6px 7px 5px 2px #ededed;
   border-radius: 10px;
 }
@@ -146,34 +140,46 @@ list-style: none;
 
 
 .grid2 {
-  width: 65%;
-  height: 8vh;
+  width: 90%;
+  height: 20vh;
   margin: auto;
+  padding: 10px;
+  padding-top: 50px;
   display: grid;
-  grid-row-gap: 30px;
-  grid-template-rows: 50% 50% 50%;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 1fr;
   text-align: center;
   justify-content: center;
 }
 
 .gridmain div:nth-child(2) {
-margin-top: 55px;
-
+padding: 45px;
 }
 
-.gridnav {
-
-
-}
 
 .gridmain  {
-width: 110%;
+width: 100%;
 height: 120vh;
 margin: auto;
 margin-right: 10px;
 display: grid;
-grid-template-rows: 18% 18% 18% 18%;
-grid-template-columns:1.5fr 1.5fr 1.5fr 1.5fr;
+grid-template-rows: 60% 40%;
+grid-template-columns:1.5fr;
 grid-row-gap: 15px;
+}
+
+.portrait{
+  width: 83%;
+  display: block;
+  margin: auto;
+}
+
+.gridResume {
+  width: 80%;
+  height: 25vh;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 40%;
+  grid-template-columns:1fr;
+  margin-bottom: 20px;
 }

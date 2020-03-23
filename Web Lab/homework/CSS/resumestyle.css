@@ -4,6 +4,7 @@ body {
   background-color: #f1f1f1;
 }
 
+
 h1
 {
   padding: 20px;
@@ -97,34 +98,48 @@ width: 50%;
 height: 60vh;
 margin: auto;
 display: grid;
-grid-template-rows: 100px 100%;
-grid-template-columns:0.5fr 0.5fr 0.5fr;
+grid-template-rows: 100%;
+grid-template-columns:1fr 1.6fr;
 grid-row-gap: 10px;
 
 }
 
 .gridmain div:nth-child(2) {
-margin-top: 55px;
-
+padding: 55px;
 }
 
-.gridnav {
-  width: 50%;
-  height: 10vh;
-  margin: auto;
-  display: grid;
-  grid-template-rows: 100px 100%;
-  grid-template-columns:0.5fr 0.5fr 0.5fr;
-  grid-row-gap: 10px;
-}
 
 .grid2 {
   width: 50%;
-  height: 5vh;
+  height: 1vh;
   margin: auto;
   display: grid;
   grid-row-gap: 15px;
-  grid-template-rows: 50px 50%;
+  grid-template-rows: 100%;
   grid-template-columns:1fr 1fr 1fr;
   text-align: center;
+}
+
+.grid2 div {
+  padding: 20%;
+}
+
+.containerMe {
+  width: 60%;
+  height: 20vh;
+  margin: auto;
+  background-color: white;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 10px;
+}
+
+.gridResume {
+  width: 50%;
+  height: 20vh;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 45%;
+  grid-template-columns:3fr;
+  margin-bottom: 20px;
+
 }
