@@ -17,12 +17,9 @@ h1
 
 }
 
-
-
 .containerIngredients {
-  padding: 40px;
-  margin: auto;
-  margin-right: 50px;
+  height: 55vh;
+  padding: 30px;
   background-color: white;
   width: 100%;
   border-radius: 30px;
@@ -47,10 +44,9 @@ h1
 
 .list
 {
-   width: 30%;
-   margin-top: 0;
-   margin-left: 40%
-   font-size: 12pt;
+   width: 70%;
+   margin-left: 10%;
+   font-size: 11pt;
  }
 
  .grid
@@ -59,15 +55,14 @@ h1
    height: 100vh;
    margin: auto;
    display: grid;
-   grid-template-columns: .8fr 1.4fr 1fr;
-   grid-template-rows: .3fr 1fr 1fr 1fr 1fr .9fr;
+   grid-template-columns: 1fr 1.4fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
    grid-template-areas:
 
          "aside main hea"
          "aside main hea"
-         "aside main hea"
-         ". main ."
-         ". main ." ;
+         "aside main hea";
+
        grid-row-gap: 10px;
        grid-column-gap: 10px;
      }
@@ -88,18 +83,12 @@ h1
        border-radius: 5px;
        grid-area: main;
      }
-.grid footer
-     {
-       border-radius: 5px;
-       grid-area: foo;
-     }
 
 .containerAside {
 padding: 10px;
 margin: auto;
-margin-left: 50px;
 background-color: white;
-width: 50%;
+width: 40%;
 border-radius: 20px;
 text-align: center;
 box-shadow: 6px 7px 5px 2px #ededed;
@@ -115,13 +104,30 @@ aside ul
 
 aside ul li
 {
-list-style-type: none;
-padding-left: 0px;
+  height: 40px;
+  position: relative;
 }
+
 
 .containerAside ul li a
    {
-display: inline-block;
+width: 100%;
+line-height: 30px;
 text-align: center;
 text-decoration: none;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(145, 210, 246);
+}
+
+.ingredients li {
+  list-style: none;
+  margin-top: auto;
+  padding: 3px;
+  background-color: white;
+  width: 100%;
+  position: relative;
 }

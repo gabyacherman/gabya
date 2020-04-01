@@ -1,116 +1,122 @@
 $(document).ready(function(){
 
-  $("main .1").hide();
-  $("main .2").hide();
-  $("main .3").hide();
-  $("main .4").hide();
-  $("main .5").hide();
-  $("main .6").hide();
-  $("main .7").hide();
-  $("main .8").hide();
-  $("main .9").hide();
+  $(".Step1").hide();
+  $(".Step2").hide();
+  $(".Step3").hide();
+  $(".Step4").hide();
+  $(".Step5").hide();
+  $(".Step6").hide();
+  $(".Step7").hide();
+  $(".Step8").hide();
+  $(".Step9").hide();
 
 
-  $("aside ul li:first-child").click(function(){
-    $("main .1").show();
-    $("main .2").hide();
-    $("main .3").hide();
-    $("main .4").hide();
-    $("main .5").hide();
-    $("main .6").hide();
-    $("main .7").hide();
-    $("main .8").hide();
-    $("main .9").hide();
+  $("#step1").click(function(){
+    $(".Step1").show();
+    $(".Step2").hide();
+    $(".Step3").hide();
+    $(".Step4").hide();
+    $(".Step5").hide();
+    $(".Step6").hide();
+    $(".Step7").hide();
+    $(".Step8").hide();
+    $(".Step9").hide();
   });
 
-  $("aside ul li:nth-child(2)").click(function(){
-    $("main .1").hide();
-    $("main .2").show();
-    $("main .3").hide();
-    $("main .4").hide();
-    $("main .5").hide();
-    $("main .6").hide();
-    $("main .7").hide();
-    $("main .8").hide();
-    $("main .9").hide();
+  $("#step2").click(function(){
+    $(".Step1").hide();
+    $(".Step2").show();
+    $(".Step3").hide();
+    $(".Step4").hide();
+    $(".Step5").hide();
+    $(".Step6").hide();
+    $(".Step7").hide();
+    $(".Step8").hide();
+    $(".Step9").hide();
   });
 
-  $("aside ul li:nth-child(3)").click(function(){
-    $("main .1").hide();
-    $("main .2").hide();
-    $("main .3").show();
-    $("main .4").hide();
-    $("main .5").hide();
-    $("main .6").hide();
-    $("main .7").hide();
-    $("main .8").hide();
-    $("main .9").hide();
+  $("#step3").click(function(){
+    $(".Step1").hide();
+    $(".Step2").hide();
+    $(".Step3").show();
+    $(".Step4").hide();
+    $(".Step5").hide();
+    $(".Step6").hide();
+    $(".Step7").hide();
+    $(".Step8").hide();
+    $(".Step9").hide();
   });
-  $("aside ul li:nth-child(4)").click(function(){
-    $("main .1").hide();
-    $("main .2").hide();
-    $("main .3").hide();
-    $("main .4").show();
-    $("main .5").hide();
-    $("main .6").hide();
-    $("main .7").hide();
-    $("main .8").hide();
-    $("main .9").hide();
+
+  $("#step4").click(function(){
+    $(".Step1").hide();
+    $(".Step2").hide();
+    $(".Step3").hide();
+    $(".Step4").show();
+    $(".Step5").hide();
+    $(".Step6").hide();
+    $(".Step7").hide();
+    $(".Step8").hide();
+    $(".Step9").hide();
   });
-  $("aside ul li:nth-child(5)").click(function(){
-    $("main .1").hide();
-    $("main .2").hide();
-    $("main .3").hide();
-    $("main .4").hide();
-    $("main .5").show();
-    $("main .6").hide();
-    $("main .7").hide();
-    $("main .8").hide();
-    $("main .9").hide();
+
+  $("#step5").click(function(){
+    $(".Step1").hide();
+    $(".Step2").hide();
+    $(".Step3").hide();
+    $(".Step4").hide();
+    $(".Step5").show();
+    $(".Step6").hide();
+    $(".Step7").hide();
+    $(".Step8").hide();
+    $(".Step9").hide();
   });
-  $("aside ul li:nth-child(6)").click(function(){
-    $("main .1").hide();
-    $("main .2").hide();
-    $("main .3").hide();
-    $("main .4").hide();
-    $("main .5").hide();
-    $("main .6").show();
-    $("main .7").hide();
-    $("main .8").hide();
-    $("main .9").hide();
+
+  $("#step6").click(function(){
+    $(".Step1").hide();
+    $(".Step2").hide();
+    $(".Step3").hide();
+    $(".Step4").hide();
+    $(".Step5").hide();
+    $(".Step6").show();
+    $(".Step7").hide();
+    $(".Step8").hide();
+    $(".Step9").hide();
   });
-  $("aside ul li:nth-child(7)").click(function(){
-    $("main .1").hide();
-    $("main .2").hide();
-    $("main .3").hide();
-    $("main .4").hide();
-    $("main .5").hide();
-    $("main .6").hide();
-    $("main .7").show();
-    $("main .8").hide();
-    $("main .9").hide();
+
+  $("#step7").click(function(){
+    $(".Step1").hide();
+    $(".Step2").hide();
+    $(".Step3").hide();
+    $(".Step4").hide();
+    $(".Step5").hide();
+    $(".Step6").hide();
+    $(".Step7").show();
+    $(".Step8").hide();
+    $(".Step9").hide();
   });
-  $("aside ul li:nth-child(8)").click(function(){
-    $("main .1").hide();
-    $("main .2").hide();
-    $("main .3").hide();
-    $("main .4").hide();
-    $("main .5").hide();
-    $("main .6").hide();
-    $("main .7").hide();
-    $("main .8").show();
-    $("main .9").hide();
+
+  $("#step8").click(function(){
+    $(".Step1").hide();
+    $(".Step2").hide();
+    $(".Step3").hide();
+    $(".Step4").hide();
+    $(".Step5").hide();
+    $(".Step6").hide();
+    $(".Step7").hide();
+    $(".Step8").show();
+    $(".Step9").hide();
   });
-  $("aside ul li:nth-child(9)").click(function(){
-    $("main .1").hide();
-    $("main .2").hide();
-    $("main .3").hide();
-    $("main .4").hide();
-    $("main .5").hide();
-    $("main .6").hide();
-    $("main .7").hide();
-    $("main .8").hide();
-    $("main .9").show();
+
+  $("#step9").click(function(){
+    $(".Step1").hide();
+    $(".Step2").hide();
+    $(".Step3").hide();
+    $(".Step4").hide();
+    $(".Step5").hide();
+    $(".Step6").hide();
+    $(".Step7").hide();
+    $(".Step8").hide();
+    $(".Step9").show();
   });
 
   });
