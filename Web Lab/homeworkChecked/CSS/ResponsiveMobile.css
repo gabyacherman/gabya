@@ -19,11 +19,10 @@ h1
 }
 
 h2
-    {
-        color: pink;
-        text-align: center;
+{
+  color: pink;
+  text-align: center;
 }
-
 
 .center
 {
@@ -35,10 +34,11 @@ h2
 }
 
 .color {
-      color: pink;
+  color: pink;
 }
 
-.containerGallery {
+.containerGallery
+{
   padding: 10px;
   margin: auto;
   margin-top: 200px;
@@ -50,7 +50,8 @@ h2
   border-radius: 20px;
 }
 
-.containerResume {
+.containerResume
+{
   padding: 20px;
   margin: auto;
   margin-bottom: 20px;
@@ -59,32 +60,35 @@ h2
   width: 80%;
   box-shadow: 6px 7px 5px 2px #ededed;
   border-radius: 20px;
-
 }
 
 .containerMe {
+  /* I took out the padding and changed the width so it can fit better */
+  width: 100%;
 
   margin: auto;
   background-color: white;
-  width: 100%;
   box-shadow: 6px 7px 5px 2px #ededed;
   border-radius: 10px;
-
-
 }
 
-.containermain {
-
+.containermain
+{
+/* I took out the padding
+  padding: 5px; */
   margin: auto;
   margin-top: auto;
   background-color: white;
   width: 100%;
   height: 80vh;
+  /* this one too
+  padding-top: 100px; */
   box-shadow: 6px 7px 5px 2px #ededed;
   border-radius: 10px;
 }
 
-.containerbodymain {
+.containerbodymain
+{
   padding: 5px;
   margin: auto;
   margin-top: 20px;
@@ -93,43 +97,46 @@ h2
   height: 35vh;
   box-shadow: 6px 7px 5px 2px #ededed;
   border-radius: 10px;
-
 }
 
-
-.navigation {
+.navigation
+{
   margin: 10px auto;
   margin-bottom: 80px;
 }
 
-.horizontaLine {
+.horizontaLine
+{
   width: 100%;
   margin: auto;
   margin-left: 50px;
 }
 
-.horizontaLine li {
-list-style: none;
+.horizontaLine li
+{
+  list-style: none;
   padding: 3px;
   margin-top: 10px;
   background-color: white;
   width: 50%;
   border-radius: 50px;
-    text-align: center;
+  text-align: center;
 }
 
-.horizontaLine li a {
+.horizontaLine li a
+{
   color: pink;
   text-decoration: none;
   font-family: 'Montserrat';
-
 }
 
-.horizontaLine li a:hover {
+.horizontaLine li a:hover
+{
   color: lightgray;
 }
 
-.grid {
+.grid
+{
   width: 100%;
   height: 230vh;
   margin: auto;
@@ -139,47 +146,47 @@ list-style: none;
 }
 
 
-.grid2 {
+.grid2
+{
+  /* I modified the maring padding to make it look better */
   width: 90%;
   height: 20vh;
   margin: auto;
   padding: 10px;
   padding-top: 50px;
   display: grid;
+  /* Took out the gap and made it 33 so in total will get you 99.. it will fit better */
   grid-template-rows: 33% 33% 33%;
-  grid-template-columns: 1fr;
+  /* Again you just needed 1 column instead of 3 */
+  grid-template-columns: 1fr ;
   text-align: center;
   justify-content: center;
 }
 
-.gridmain div:nth-child(2) {
+.gridmain div:nth-child(2)
+{
+  /* Instead of margin I used padding to fit the text
+margin-top: 55px; */
 padding: 45px;
 }
 
-
-.gridmain  {
+.gridmain
+{
 width: 100%;
 height: 120vh;
 margin: auto;
 margin-right: 10px;
 display: grid;
+/* Change this one to fit the image and the rest for the text */
 grid-template-rows: 60% 40%;
+/* You just needed 1 column, that was the problem */
 grid-template-columns:1.5fr;
 grid-row-gap: 15px;
 }
 
-.portrait{
+.portrait
+{
   width: 85%;
   display: block;
   margin: auto;
-}
-
-.gridResume {
-  width: 80%;
-  height: 25vh;
-  margin: auto;
-  display: grid;
-  grid-template-rows: 40%;
-  grid-template-columns:1fr;
-  margin-bottom: 20px;
 }

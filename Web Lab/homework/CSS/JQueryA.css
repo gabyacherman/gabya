@@ -19,7 +19,7 @@ h1
 
 .containerIngredients {
   height: 55vh;
-  padding: 30px;
+  padding: 20px;
   background-color: white;
   width: 100%;
   border-radius: 30px;
@@ -36,10 +36,10 @@ h1
   margin-bottom: 20px;
   background-color: white;
   width: 100%;
-  border-radius: 20px;
   box-shadow: 6px 7px 5px 2px #ededed;
   color: rgb(145, 210, 246);
   text-align: center;
+
 }
 
 .list
@@ -88,7 +88,7 @@ h1
 padding: 10px;
 margin: auto;
 background-color: white;
-width: 40%;
+width: 50%;
 border-radius: 20px;
 text-align: center;
 box-shadow: 6px 7px 5px 2px #ededed;
@@ -118,6 +118,7 @@ text-decoration: none;
 
 }
 
+
 a {
   text-decoration: none;
   color: rgb(145, 210, 246);
@@ -130,4 +131,13 @@ a {
   background-color: white;
   width: 100%;
   position: relative;
+  text-align: justify;
+
+}
+
+.active {
+border: 2px solid rgb(145, 210, 246);
+border-radius: 10px;
+padding: 10px;
+
 }
