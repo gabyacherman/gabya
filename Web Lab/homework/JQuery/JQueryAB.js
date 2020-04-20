@@ -1,4 +1,12 @@
 $(document).ready(function(){
+
+$(".fancyTitle").lettering();
+
+$(".fancyParagraph").lettering("words");
+
+
+
+
   $(".paragraph").show();
   $(".step").hide();
   $(".Step1").hide();
@@ -225,7 +233,7 @@ $(document).ready(function(){
     $("h1").html("Good Right?");
   });
 
-  $("p").click(function(){
+  $("p").click(function() {
     $(".container div:first-child p").css("color", "black");
   });
 
